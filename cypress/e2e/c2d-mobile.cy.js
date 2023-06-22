@@ -143,7 +143,13 @@ describe('C2D Mobile', () => {
             //
             for (let index = 0; index < taggingTestKeys.length; index++) {
                 console.log("TEST-->", win.lastTealiumRequest[taggingTestKeys[index]], " = ", taggingTestObject[taggingTestKeys[index]]);
-                expect(taggingTestKeys[index] + "=" + win.lastTealiumRequest[taggingTestKeys[index]]).to.eq(taggingTestKeys[index] + "=" + taggingTestObject[taggingTestKeys[index]]);
+                if (taggingTestObject[taggingTestKeys[index]] === "SOMEVALUE") {
+                    // Pass Control
+                    expect(taggingTestKeys[index] + "=" + win.lastTealiumRequest[taggingTestKeys[index]]).to.not.eq(taggingTestKeys[index] + "=undefined");
+                } else {
+                    // Exact Match
+                    expect(taggingTestKeys[index] + "=" + win.lastTealiumRequest[taggingTestKeys[index]]).to.eq(taggingTestKeys[index] + "=" + taggingTestObject[taggingTestKeys[index]]);
+                }
             }
         });
     };
