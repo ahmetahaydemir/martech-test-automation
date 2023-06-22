@@ -1,0 +1,93 @@
+{
+  "LandingPage": {
+    "page_name": "bireysel:vodafone faturali olun"
+  },
+  "NumaraniTaşiFaturali": {
+    "page_name": "bireysel:c2d mobile:faturali tarifeler",
+    "journey_type": "numarani tasi",
+    "page_listing_category": "faturali tarifeler"
+  },
+  "NumaraniTaşiFaturaliFiltre": {
+    "page_name": "bireysel:c2d mobile:faturali tarifeler",
+    "journey_type": "numarani tasi",
+    "page_listing_category": "faturali tarifeler",
+    "page_filters": "tariff filter:FIRSAT"
+  },
+  "NumaraniTaşiFaturaliDetay": {
+    "page_name": "bireysel:c2d mobile:faturali tarifeler:detay",
+    "journey_type": "numarani tasi",
+    "page_listing_category": "faturali tarifeler",
+    "event_name": "prodView"
+  },
+  "NumaraniTaşiFaturaliHatİslemleri": {
+    "page_name": "bireysel:vodafone abone basvurusu:numaraniz:numarami vodafonea tasimak istiyorum",
+    "click_to_door_tariff_name": "Kırmızı Fırsat 16GB",
+    "click_to_door_tariff_tariffType": "RED"
+  },
+  "NumaraniTaşiFaturasiz": {
+    "page_name": "bireysel:c2d mobile:faturasiz paketler",
+    "journey_type": "numarani tasi",
+    "page_listing_category": "faturasiz paketler"
+  },
+  "NumaraniTaşiFaturasizFiltre": {
+    "page_name": "bireysel:c2d mobile:faturasiz paketler",
+    "journey_type": "numarani tasi",
+    "page_listing_category": "faturasiz paketler",
+    "page_filters": "tariff filter:UYUMLU"
+  },
+  "NumaraniTaşiFaturasizDetay": {
+    "page_name": "bireysel:c2d mobile:faturasiz paketler:detay",
+    "journey_type": "numarani tasi",
+    "page_listing_category": "faturasiz paketler",
+    "event_name": "prodView"
+  },
+  "NumaraniTaşiFaturasizHatİslemleri": {
+    "page_name": "bireysel:faturasiz:vodafone abone basvurusu:numaraniz:numarami vodafonea tasimak istiyorum",
+    "click_to_door_tariff_name": "Gel Dene Paketi",
+    "click_to_door_tariff_tariffType": "UYUMLU"
+  },
+  "YeniHatAlFaturali": {
+    "page_name": "bireysel:c2d mobile:faturali tarifeler",
+    "journey_type": "yeni hat al",
+    "page_listing_category": "faturali tarifeler"
+  },
+  "YeniHatAlFaturaliFiltre": {
+    "page_name": "bireysel:c2d mobile:faturali tarifeler",
+    "journey_type": "yeni hat al",
+    "page_listing_category": "faturali tarifeler",
+    "page_filters": "tariff filter:FIRSAT"
+  },
+  "YeniHatAlFaturaliDetay": {
+    "page_name": "bireysel:c2d mobile:faturali tarifeler:detay",
+    "journey_type": "yeni hat al",
+    "page_listing_category": "faturali tarifeler",
+    "event_name": "prodView"
+  },
+  "YeniHatAlFaturaliHatİslemleri": {
+    "page_name": "bireysel:vodafone abone basvurusu:numaraniz:yeni bir vodafone numarasi almak istiyorum",
+    "click_to_door_tariff_name": "Kırmızı Fırsat 16GB",
+    "click_to_door_tariff_tariffType": "RED"
+  },
+  "YeniHatAlFaturasiz": {
+    "page_name": "bireysel:c2d mobile:faturasiz paketler",
+    "journey_type": "yeni hat al",
+    "page_listing_category": "faturasiz paketler"
+  },
+  "YeniHatAlFaturasizFiltre": {
+    "page_name": "bireysel:c2d mobile:faturasiz paketler",
+    "journey_type": "yeni hat al",
+    "page_listing_category": "faturasiz paketler",
+    "page_filters": "tariff filter:UYUMLU"
+  },
+  "YeniHatAlFaturasizDetay": {
+    "page_name": "bireysel:c2d mobile:faturasiz paketler:detay",
+    "journey_type": "yeni hat al",
+    "page_listing_category": "faturasiz paketler",
+    "event_name": "prodView"
+  },
+  "YeniHatAlFaturasizHatİslemleri": {
+    "page_name": "bireysel:faturasiz:vodafone abone basvurusu:numaraniz:yeni bir vodafone numarasi almak istiyorum",
+    "click_to_door_tariff_name": "Hoş Geldin Ekstra 25GB",
+    "click_to_door_tariff_tariffType": "UYUMLU"
+  }
+}
