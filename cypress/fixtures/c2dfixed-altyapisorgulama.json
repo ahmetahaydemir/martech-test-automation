@@ -1,0 +1,23 @@
+{
+    "LandingPage": {
+      "page_name": "bireysel:evde internet basvurusu:adres bilgileri"
+    },
+
+    "TariffListing": {
+        "page_name": "bireysel:evde internet basvurusu:tarife secimi"
+
+      },
+
+      "TariffSelection": {
+        "page_name": "bireysel:evde internet basvurusu:tarife secimi:detay",
+        "product_name": "SOMEVALUE"
+      },
+
+      "PersonalInformation": {
+        "page_name": "bireysel:evde internet basvurusu:kisisel bilgiler1"
+      }
+      
+
+
+
+}
